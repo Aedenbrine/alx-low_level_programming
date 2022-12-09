@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /* more headers goes there */
 /**
  * main - the last digit of n
@@ -25,7 +27,7 @@ int main(void)
 				{
 					printf("and is 0\n");
 				}
-				if ((n % 10) < 6) 
+				else ((n % 10) < 6) 
 				{
 					printf("and is less than 6 and not 0\n");
 				}
