@@ -3,22 +3,22 @@
 #include <time.h>
 
 /**
- *  * main - Prints base 10 numbers
- *   * @void: Empty parameter list for main.
- *    *
- *     * Description: Prints numbers 0-9
- *      *
- *       * Return: 0 for success
- *       */
+ * main - Prints base 10 numbers
+ * @void: Empty parameter list for main.
+ *
+ * Description: Prints numbers 0-9
+ *
+ * Return: 0 for success
+ */
 int main(void)
 {
 		int num = 39;
 
-			while (num <= 7)
-					{
-								putchar(num);
-										num++;
-					}
-				putchar('\n');
-					return (0);
+		while (num <= 7)
+		{
+			putchar(num);
+			num++;
+		}			
+		putchar('\n');
+		return (0);
 }
