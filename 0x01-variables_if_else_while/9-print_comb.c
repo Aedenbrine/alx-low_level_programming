@@ -11,18 +11,17 @@
  */
 int main(void)
 {
-	int num = 40;
-
-	while (num < 50)
+	int a;
+	
+	for (a = 0; a < 100; a++)
 	{
-		putchar(num);
-		if (num < 49)
+		putchar(a + '0');
+		if (a < 99)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		num++;
 	}
 	putchar('\n');
-		return (0);
+		return(0);
 }
