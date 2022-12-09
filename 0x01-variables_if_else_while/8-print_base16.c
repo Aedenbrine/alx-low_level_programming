@@ -3,18 +3,18 @@
 #include <time.h>
 
 /**
- *  * main - Prints base 16
- *   * @void: Empty parameter list for main.
- *    *
- *     * Description: Prints all hexadecimals
- *      *
- *       * Return: 0 for success
- *       */
+ * main - Prints base 16
+ * @void: Empty parameter list for main.
+ *
+ * Description: Prints all hexadecimals
+ *
+ * Return: 0 for success
+ */
 int main(void)
 {
-	int num = 40;
+	int num = 48;
 
-	while (num <= 50)
+	while (num <= 57)
 	{
 		putchar(num);
 		num++;
