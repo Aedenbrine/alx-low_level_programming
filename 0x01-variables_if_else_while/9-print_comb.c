@@ -19,10 +19,10 @@ int main(void)
 		if (num < 59)
 		{
 			putchar(',');
-			putchar(' ')
+			putchar(' ');
 		}
 		num++;
 	}
-	putchar('\n')
+	putchar('\n');
 		return (0);
 }
