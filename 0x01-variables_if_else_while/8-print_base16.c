@@ -22,8 +22,11 @@ int main(void)
 	num = 97;
 
 	while (num <= 102)
+	{
 		putchar(num);
-	num++;
+		num++;
+	
+	}
 	putchar('\n');
 	return (0);
 
