@@ -3,6 +3,7 @@
 #include <time.h>
 /**
  * main - write all possible different combination of three digits
+ *
  * Return: 0 as success
  */
 
