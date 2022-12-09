@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
 /**
  * main - writes 0-9
  * @void: Empty parameter lsit for sale.
@@ -16,7 +15,7 @@ int main(void)
 	while (num < 50)
 	{
 		putchar(num);
-		if (num < 59)
+		if (num < 49)
 		{
 			putchar(',');
 			putchar(' ');
