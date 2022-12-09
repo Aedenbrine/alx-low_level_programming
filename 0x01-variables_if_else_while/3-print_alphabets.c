@@ -20,7 +20,7 @@ int main(void)
 		putchar(letter);
 		letter++;
 	}
-	letter + 'A':
+	letter = 'A';
 
 		while (letter <= 'Z')
 		{
