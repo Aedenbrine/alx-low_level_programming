@@ -3,11 +3,7 @@
 #include <time.h>
 
 /**
- * main - Writes 00-99
- * @void: Empty paramter list for main.
- *
- * Description: Writes all unique combinations
- * of 2 number
+ * main - Prints all possible different combinations of two digits
  *
  * Return 0 for success
  */
@@ -15,7 +11,7 @@ int main(void)
 {
 	int n, m;
 
-	for(n = 48; n<= 56; n++)
+	for(n = 48; n <= 56; n++)
 	{
 		for (m = 49; m <= 57; m++)
 		{
