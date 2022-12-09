@@ -12,6 +12,7 @@
 int main(void)
 {
 	int num = 40;
+
 	while (num < 50)
 	{
 		putchar(num);
