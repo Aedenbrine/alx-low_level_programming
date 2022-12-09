@@ -13,7 +13,7 @@
  */
 int main(void)
 {
-	char lette = 'a';
+	char letter = 'a';
 
 	while (letter <= 'z')
 	{
