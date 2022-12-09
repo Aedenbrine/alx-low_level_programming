@@ -11,24 +11,22 @@
  */
 int main(void)
 {
-	int i, j;
-	
-	for (i = '0'; i <= '9'; i++)
-	{
-		for (j = '0'; j <= '9'; j++)
-		{
-			if ((i < j) & (J <= '9'))
-				(
-				 	putchar(i);
-					putchar(j);
-					if ((j < '9') | (i < '8'))
-					{
-						putchar(',');
-						putchar(' ');
-					}
+	int n, m;
 
-					
-				)
+	for(n = 48; n<= 56; n++)
+	{
+		for (m = 49; m <= 57; m++)
+		{
+			if  (m > n)
+			{
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+				{
+					putchar{','};
+					putchar{' '};
+				}
+			}
 		}
 	}
 	putchar('\n');
