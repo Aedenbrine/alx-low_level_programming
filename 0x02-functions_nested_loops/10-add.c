@@ -7,7 +7,7 @@
  * Return: addition or sum of the int
  */
 
-int add (int a, int b)
+int add(int a, int b)
 {
 	return (a + b);
 }
