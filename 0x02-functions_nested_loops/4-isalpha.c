@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <islower.h>
+#include <main.h>
 int _isalpha(int c)
 {
 	if (c >= 0 && c <= 25; c >= 'a' && c <= 'z')
