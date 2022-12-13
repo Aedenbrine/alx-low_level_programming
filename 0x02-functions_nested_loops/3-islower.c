@@ -7,7 +7,7 @@
  *
  * Description: Check for lowercase
  *
- * 
+ *
  * Return: 1 if lowercase, 0, otherwise
  */
 
