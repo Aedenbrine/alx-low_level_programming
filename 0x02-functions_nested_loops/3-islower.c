@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 #include <islower.h>
+
 int _islower(int d)
 {
 	if (d >= 0 && d <=25)
