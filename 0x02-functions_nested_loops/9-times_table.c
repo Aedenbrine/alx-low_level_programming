@@ -18,7 +18,7 @@ void times_table(void)
 		for (z = 0; z <= 9; z++)
 
 		{
-		prod = y * z;
+		prod = z * y;
 		if (y != 0)
 		{
 			putchar(',');
