@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _abt - A finction that print the absolute value of an integer
+ * _abs - A finction that print the absolute value of an integer
  *
  * @int: integer to be printed
+ * @n: calu of integer to use
  *
  * Return: n if interger is gretera than 0, otherwise return -n
  */
