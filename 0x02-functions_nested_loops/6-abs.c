@@ -7,14 +7,14 @@
  * Return: n if interger is gretera than 0, otherwise return -n
  */
 
-int _abt(int)
+int _abt(int n)
 {
 	if (n > 0)
 	{
-		return (n)
+		return (n);
 	}
 	else
 	{
-		return (-n)
+		return (-n);
 	}
 }
