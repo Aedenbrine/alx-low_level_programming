@@ -6,7 +6,7 @@
  * @n: The interger for the number to be printed
  *
  * Return: 1 as a + if n is greater than zero
- * 0, if n is 0 otherwise, print -1 as a - if 
+ * 0, if n is 0 otherwise, print -1 as a - if
  * n is less than 0
  */
 
