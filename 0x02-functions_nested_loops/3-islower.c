@@ -5,6 +5,9 @@
  *
  * int c: character to be checked if it is lowercase
  *
+ * Description: Check for lowercase
+ * 
+ * 
  * Return: 1 if lowercase, 0, otherwise
  */
 
@@ -14,6 +17,6 @@ int _islower(int c)
 		return (1);
 	else
 		return (0);
-	
+
 }
 
