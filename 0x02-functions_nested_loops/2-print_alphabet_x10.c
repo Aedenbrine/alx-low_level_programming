@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "main.h"
+
 /**
  * print_alphabet - Print lowercase alphabet
  *
@@ -10,7 +12,7 @@ void print_alphabet(void)
 
 	for (j = 'a'; j <= 'z'; j++)
 	{
-		putchar();
+		putchar(j);
 	}
 }
 
