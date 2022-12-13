@@ -9,9 +9,15 @@
 void times_table(void)
 {
 	int y, z, prod;
+
 	prod = 0;
+
 	for (y = 0; y <= 9; y++)
+
 	{
+		for (z = 0; z <= 9; z++)
+
+		{
 		prod = y * z;
 		if (y != 0)
 		{
@@ -29,7 +35,7 @@ void times_table(void)
 			putchar((prod % 10) + '0');
 		}
 		else 
-		{
+		
 			putchar((prod % 10) + '0');
 		}
 		putchar('\n');
