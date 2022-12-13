@@ -1,5 +1,7 @@
 
 #include <stdio.h>
+#include "main.h"
+
 /**
  * main - Print Putchar
  * @void: Empty parameter list for main.
