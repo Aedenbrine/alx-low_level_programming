@@ -2,41 +2,40 @@
 /**
  * times_table - prints times table up to 9
  *
- * Return: void
- * @void: Paramter to be used
+ *
+ * @void: Pa
+ *
+ *
  */
-
-void times_table(void)
+void time_table(void)
 {
-	int y, z, prod;
+	int i, j, k;
 
-	prod = 0;
-
-	for (y = 0; y <= 9; y++)
-
+	for (i = 0; i < 10; i++;)
 	{
-		for (z = 0; z <= 9; z++)
-
+		for (j = 0; j < 10; j++;)
 		{
-		prod = z * y;
-		if (y != 0)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		if (prod >= 10)
-		{
-			putchar((prod / 10) + '0');
-			putchar((prod % 10) + '0');
-		}
-		else if ((prod < 10) && (y != 0))
-		{
-			putchar(' ');
-			putchar((prod % 10) + '0');
-		}
-		else
-			putchar((prod % 10) + '0');
+			k = j * i;
+			if (j == 0)
+			{
+				putchar (k + '0');
+			}
+			if (k < 10 && j != 0)
+			{
+				putchar(',');
+				putchar(' ');
+				putchar(' ');
+				putchar(k + '0');
+			}
+			else if (k >= 10)
+			{
+				putchar(',');
+				putchar(' ');
+				putchar((k / 10) + '0');
+				putchar((k % 10) + '0');
+			}
 		}
 		putchar('\n');
 	}
 }
+

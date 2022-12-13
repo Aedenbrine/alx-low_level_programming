@@ -5,7 +5,7 @@
  *
  * Description: writes times table up to input not exceeding 15
  *
- * @n: size of time table 
+ * @void: size of time table 
  *
  * Return: Nothing
  */
