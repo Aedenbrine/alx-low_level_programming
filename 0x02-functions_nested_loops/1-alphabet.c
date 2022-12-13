@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <main.h>
+
 /**
  * print_alphabet - Print the alphabet in lowercase with a new line
  * @void: void parameter list for print alphabet
@@ -13,5 +14,5 @@ void print_alphabet(void)
 	{
 		putchar(i);
 	}
-	putchar("\n");
+	putchar('\n');
 }
