@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+/**
+ * _isalpha - A function that checks for alphabetic character
+ *
+ * @c: To check if it is letter, lowercase or uppercase
+ *
+ * Return: 1 if success, otherwise, 0
+ */
 
 int _isalpha(int c)
 {
