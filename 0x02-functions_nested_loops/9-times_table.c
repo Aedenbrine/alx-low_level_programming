@@ -10,10 +10,10 @@ void times_table(void)
 {
 	int y, z, prod;
 	prod = 0;
-	for (x = 0; x <= 9; x++)
+	for (y = 0; y <= 9; y++)
 	{
 		prod = y * z;
-		if (x != 0)
+		if (y != 0)
 		{
 			putchar(',');
 			putchar(' ');
