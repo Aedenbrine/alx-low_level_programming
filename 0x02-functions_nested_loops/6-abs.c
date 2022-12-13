@@ -7,7 +7,7 @@
  * Return: n if interger is gretera than 0, otherwise return -n
  */
 
-int _abt(int n)
+int _abs(int n)
 {
 	if (n > 0)
 	{
