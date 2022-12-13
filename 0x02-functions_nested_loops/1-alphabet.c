@@ -1,0 +1,17 @@
+#include <stdio.h>
+/**
+ * print_alphabet - Print the alphabet in lowercase with a new line
+ * @void: void parameter list for print alphabet
+ *
+ * Descriptiom: Print alophabet in lowercase with new line
+ */
+void print_alphabet(void)
+{
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar("\n")
+}
