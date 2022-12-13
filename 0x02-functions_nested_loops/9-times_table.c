@@ -20,10 +20,10 @@ void times_table(void)
 		}
 		if (prod >= 10)
 		{
-			puchar((prod / 10) + '0');
+			putchar((prod / 10) + '0');
 			putchar((prod % 10) + '0');
 		}
-		else if (prod < 10) && (x != 0)
+		else if (prod < 10) && (y != 0)
 		{
 			putchar(' ');
 			putchar((prod % 10) + '0');
