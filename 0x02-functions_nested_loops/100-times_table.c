@@ -10,7 +10,7 @@
  * Return: Nothing
  */
 
-void print_times_table(int n)
+void print_times_table(void)
 {
 	int i, j, k;
 
@@ -22,7 +22,7 @@ void print_times_table(int n)
 
 			if (j == 0)
 			{
-				putchar(k + '0')
+				putchar(k + '0');
 			}
 			if (k < 10 && j != 0)
 			{
