@@ -20,11 +20,11 @@ void print_times_table(int n)
 		{
 			for (j = 0; j <= n; j++)
 			{
-				k = j * i
+				k = j * i;
 
 					if (j == 0)
 					{
-						putvhar(k + '0');
+						putchar(k + '0');
 					}
 					else if(k < 10 && j != 0)
 					{
