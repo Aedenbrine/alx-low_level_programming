@@ -19,6 +19,8 @@ void time_table(void)
 			if (j == 0)
 			{
 				putchar (k + '0');
+				putchar(' ');
+				putchar(',');
 			}
 			if (k < 10 && j != 0)
 			{
