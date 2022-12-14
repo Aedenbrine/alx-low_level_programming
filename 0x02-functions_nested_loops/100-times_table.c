@@ -52,7 +52,7 @@ void print_times_table(int n)
 
 					}
 			}
+			putchar('\n');
 		}
-		putchar('\n');
 	}
 }
