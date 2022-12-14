@@ -2,14 +2,8 @@
 #include "main.h"
 /**
  * print_times_table - print times table up to input
- *
- * Description: writes times table up to input not exceeding 15
- *
  * @n: size of time table
- *
- * Return: Nothing
  */
-
 void print_times_table(int n)
 {
 	int i, j, k;
@@ -49,10 +43,9 @@ void print_times_table(int n)
 						putchar((k / 100) + '0');
 						putchar(((k / 10) % 10) + '0');
 						putchar((k % 10) + '0');
-
 					}
 			}
-		putchar('\n');
+			putchar('\n');
+		}
 	}
-}
 }
