@@ -5,7 +5,7 @@
  *
  * Description: writes times table up to input not exceeding 15
  *
- * @n: size of time table 
+ * @n: size of time table
  *
  * Return: Nothing
  */
@@ -26,7 +26,7 @@ void print_times_table(int n)
 					{
 						putchar(k + '0');
 					}
-					else if(k < 10 && j != 0)
+					else if (k < 10 && j != 0)
 					{
 						putchar(',');
 						putchar(' ');
