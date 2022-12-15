@@ -7,6 +7,7 @@
  */
 int main(void)
 {
-	print_numbers();
+	for(i = 0; i <= 9; i++)
+	print_numbers(i);
 	return (0);
 }
