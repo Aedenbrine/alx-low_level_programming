@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- *  * main - Entry point.
- *   *
- *    * Return: Always 0.
- *     */
+ * main - Entry point.
+ *
+ * Return: Always 0.
+ */
 
 int main(void)
-
 {
 	long n, i;
 
@@ -17,9 +16,7 @@ int main(void)
 		while (n % i == 0)
 			n = n / i;
 	}
-
 	printf("%lu\n", n);
-
 	return (0);
 }
 
