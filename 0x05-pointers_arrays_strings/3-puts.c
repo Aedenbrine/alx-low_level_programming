@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * void_putchar - print a string followed by a new line
+ * _put - print a string followed by a new line
  *
  * @str: the string tp print
  */
