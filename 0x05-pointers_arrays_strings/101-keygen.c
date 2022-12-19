@@ -31,7 +31,7 @@ int main(void)
 	}
 	for (j = 0; j <= i; j++)
 	{
-		printf("%c", password[j]);
+		putchar("%c", password[j]);
 	}
 	return (0);
 }
