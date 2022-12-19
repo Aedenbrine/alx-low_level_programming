@@ -5,7 +5,7 @@
  * @str: the string tp print
  */
 
-void_putchar(char *str)
+void_puts(char *str)
 {
 	int = i;
 
