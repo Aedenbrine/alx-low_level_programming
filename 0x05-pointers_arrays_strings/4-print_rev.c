@@ -1,8 +1,8 @@
-#inlcude "main.h"
+#include "main.h"
 void print_rev(char *s)
 {
 	int i = 0;
-	int lenth;
+	int length;
 
 	for (length = 0; s[length] != '\0'; length++)
 	{
