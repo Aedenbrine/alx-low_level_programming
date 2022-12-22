@@ -1,23 +1,25 @@
-#include <stdio.h>
+#include "main.h"
 
-int main(void)
+
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int n;
-	int a[5];
-	int *p;
+	char *n1 = "12345678923445678901234567881234";
+	char *n2 = "98741232318193298928392938392939";
+	char *r[100];
+	int size_r[10]
 
-	a[2] = 1024;
-	p = &n;
-	/**
-	 * write your line of code here...
-	 * Remember:
-	 * - you are not allowed to use a
-	 * - you are not allowed to modify p
-	 * - only one statement 
-	 * - you are not allowed to code anything else than this line of code
-	 **/
-	*((P + 5) = 98;
-	/* ...so that this prints 98\n */
-	printf("a[2] = %d\n", a[2]);
+		res = infinite_add(n1, n2, r, 100);
+	if (res == 0)
+	{
+		printf("error\n");
+	}
+	else
+	{
+		printf("%s + %s = %s\n",  n1, n2, res);
+	}
+	n1 = "1234567890";
+	n2 = "1";
+	res = infinite_add(n1, n2);
 	return (0);
 }
+
