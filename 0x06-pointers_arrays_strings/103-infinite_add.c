@@ -1,26 +1,59 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * rot13 - encodes a string in rot13
- * @s: string to be encoded
- * Return: the resulting strring
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-char *rot13(char *s)
+int main(void)
 {
-	int i, j;
-	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char *n = "1234567892434574367823574575678477685785645685876876774586734734563456453743756756784458";
+	char *m = "9034790663470697234682914569346259634958693246597324659762347956349265983465962349569346";
+	char r[100];
+	char r2[10];
+	char r3[11];
+	char *res;
 
-	for (i = 0; s[i] != '\0'; i++)
+	res = infinite_add(n, m, r, 100);
+	if (res == 0)
 	{
-		for (j = 0; a[j] != '\0'; j++)
-		{
-			if (s[i] == a[j])
-			{
-				s[i] = b[j];
-				break;
-			}
-		}
+		printf("Error\n");
 	}
-	return (s);
+	else
+	{
+		printf("%s + %s = %s\n", n, m, res);
+	}
+	n = "1234567890";
+	m = "1";
+	res = infinite_add(n, m, r2, 10);
+	if (res == 0)
+	{
+		printf("Error\n");
+	}
+	else
+	{
+		printf("%s + %s = %s\n", n, m, res);
+	}
+	n = "999999999";
+	m = "1";
+	res = infinite_add(n, m, r2, 10);
+	if (res == 0)
+	{
+		printf("Error\n");
+	}
+	else
+	{
+		printf("%s + %s = %s\n", n, m, res);
+	}
+	res = infinite_add(n, m, r3, 11);
+	if (res == 0)
+	{
+		printf("Error\n");
+	}
+	else
+	{
+		printf("%s + %s = %s\n", n, m, res);
+	}
+	return (0);
 }
