@@ -1,31 +1,32 @@
 #include "main.h"
 
-#include <stdio.h>
-
-
-
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+* _strstr - function locate
+* @haystack: pointer to char
+* @needle: pointer to char
+* Return: 0
+*/
 
-int main(void)
-
+char *_strstr(char *haystack, char *needle)
 {
+	char *result = haystack, *fneedle = needle;
 
-    char *s = "hello, world";
-
-    char *f = "world";
-
-    char *t;
-
-
-
-    t = _strstr(s, f);
-
-    printf("%s\n", t);
-
-    return (0);
-
+	while (*haystack)
+	{
+		while (*needle)
+		{
+			if (*haystack++ != *needle++)
+			{
+				break;
+			}
+		}
+		if (!*needle)
+		{
+			return (result);
+		}
+		needle = fneedle;
+		result++;
+		haystack = result;
+	}
+	return (0);
 }
