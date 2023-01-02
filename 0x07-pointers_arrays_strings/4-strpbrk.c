@@ -1,31 +1,27 @@
+#include <stdio.h>
 #include "main.h"
 
-#include <stdio.h>
-
-
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _strpbrk - bytes
+ * @s: pointer to char
+ * @accept: pointer to char
+ * Return: NULL
  */
 
-int main(void)
-
+char *_strpbrk(char *s, char *accept)
 {
+	int i;
 
-    char *s = "hello, world";
-
-    char *f = "world";
-
-    char *t;
-
-
-
-    t = _strpbrk(s, f);
-
-    printf("%s\n", t);
-
-    return (0);
-
+	while (*s)
+	{
+		for (i = 0; accept[i]; i++)
+		{
+			if (*s == accept[i])
+			{
+				return (s);
+			}
+		}
+		s++;
+	}
+	return (NULL);
 }
