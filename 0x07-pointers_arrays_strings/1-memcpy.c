@@ -1,22 +1,20 @@
 #include "main.h"
 
 /**
- * _memcpy - copies n bytes from memory area src to memory area dest
- * @dest: memory area
- * @src: meo=mory area
- * @n: amount of bytes
- * Return: pointer to copy location
+ * _memcpy - irontnoux2
+ * @dest: pointer to char params
+ * @src: pointer to char params
+ * @n: size
+ * Return: *dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char *p = dest;
+	unsigned int i;
 
-	while (n--)
+	for (i = 0; i < n; i++)
 	{
-		*dest = *src;
-		src++;
-		dest++;
+		dest[i] = src[i];
 	}
-	return (p);
+	return (dest);
 }
