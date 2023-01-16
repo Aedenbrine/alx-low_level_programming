@@ -1,6 +1,12 @@
-#ifndef FUNCTION_LIKE_MACRO_H
-#define FUNCTION_LIKE_MACRO_H
+#include <stdio.h>
 
-#define ABS(x) ((x) < (0) ? -(x) : (x))
+/**
+ * main - Entry point, prints name of exec file
+ * Return: Always (Success)
+ */
 
-#endif
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
+}
